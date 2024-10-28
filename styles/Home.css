@@ -1,0 +1,38 @@
+.HomeColor{
+    background-color: #000000 !important;        
+}
+
+.navLogo img{
+    height: 5rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav-item a{
+    font-size: 1.5rem;
+    color: #888888 !important;
+    opacity: 0.8;
+}
+
+.nav-item a:hover{
+    color: #fafafa !important;
+}
+
+.mainHead{
+    font-size: 5rem ;
+}
+
+.subHead{
+    padding: 0 5%;
+    font-size: 2rem;
+}
+
+.npm{
+    font-size: 1.5rem;
+    font: bolder;
+}
+.npm img{
+    height: 1%;
+    width: 4%;
+    object-fit: cover;   
+}

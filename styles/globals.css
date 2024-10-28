@@ -1,26 +1,138 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body{
+    height: 100vh;
+    width: 100%;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.spaceTop{
+    margin-top: auto 0;    
 }
 
-* {
-  box-sizing: border-box;
+.mediumSpace{
+    margin-top: 10%;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+button{
+    font-size: 1.3rem !important;
+    font-weight: 500 !important; 
+
+    height: 4.5rem;
+    width: 12rem;
+
+    border-radius: 10px !important;
+
+    color: #fafafa !important;
+    background-color: #1a1a1a !important;
+}
+
+.fullScreen{
+    height: 100%;
+    width: 100%;
+}
+
+.whiteButton{
+    font-size: 1.3rem !important;
+    font-weight: 500 !important; 
+
+    height: 4.5rem;
+    width: 12rem;
+
+    border-radius: 10px !important;
+
+    color: #1a1a1a !important;
+    background-color: #fafafa !important;
+
+}
+
+form input{
+    font-size: 1.4rem !important; 
+    border-radius: 1rem !important;
+}
+
+.mainHeadingColor{
+    color: #fafafa  !important;
+
+}
+
+.subFontColor{
+    color: #888888 !important;
+}
+
+.aboutImg{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 400px;
+    width: 100%;
+
+    object-fit: contain;
+
+    margin: 1%;
+    
+}
+
+.markUp h1{
+    font-size: 1.9rem !important;
+}
+
+.markUp span{
+    color: #fafafa  !important;
+}
+
+.logoSetup{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    margin-top: 5% !important;
+    border-top: 2px solid  #333;
+
+}
+
+.footerBox{
+    margin: 0 !important;
+    margin-top: 3% !important;
+}
+
+.footerBox .row{
+    display: flex;
+    align-items: self-start;
+    width: 140% !important;
+    margin: 0 5%;
+
+}
+
+.tags{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tags p{
+    font-size: 1.3rem;
+    color: #888888 !important;   
+    font-weight: 500;
+
+    opacity: 0.8;
+
+    cursor: pointer;
+}
+
+.tags p:hover{
+    color: #fafafa !important;   
+}
+
+.tags h4{
+    color: #fafafa !important;   
+}
+
+.rights{
+    color: #888888 !important;   
+}
+
+.rightsImg img{
+    height: 30px;
+    width: 100%;
+    object-fit: contain;
 }
